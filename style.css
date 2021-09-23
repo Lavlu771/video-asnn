@@ -1,0 +1,217 @@
+body,p,span{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2.h3,h4.h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.main-header .container-fluid,
+.slider-section .container-fluid{
+    max-width: 1300px;
+    margin: auto;
+}
+ul.our-primary-menu{}
+ul.our-primary-menu li{}
+ul.our-primary-menu li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 18px;
+    color: #111;
+    font-weight: 500;
+}
+ul.our-primary-menu li a:hover{}
+
+/* dropdown menu */
+ul.our-primary-menu li{
+    position: relative;
+}
+ul.our-primary-menu li ul{
+    position: absolute;
+    top: 150%;
+    left: 0;
+    width: 270px;
+    background: #fafafa;
+    list-style: none;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+}
+ul.our-primary-menu li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 120%;
+}
+ul.our-primary-menu li ul li{
+    flex-direction: column;
+}
+ul.our-primary-menu li ul li a{}
+.header-info{}
+.header-search{
+    width: 60px;
+    font-size: 22px;
+    text-align: center;
+    border-right: 2px solid #ddd;
+    margin-right: 20px;
+}
+.header-call{
+    width: 220px;
+}
+.header-call-icon{
+    font-size: 33px;
+    color: #e83b3e;
+}
+.header-call-info span{
+    color: #606060;
+}
+.header-call-info a{
+    font-weight: 500;
+    color: #111;
+}
+.header-button{}
+body .btn-primary{
+    font-size: 14px;
+    padding: 12px 31px;
+    width: 160px;
+    display: block;
+    background:#e83b3e !important;
+    border-color: #e83b3e;
+    position: relative;
+    z-index: 1;
+}
+body .btn-primary:hover{
+    border-color: #111;
+}
+body .btn-primary::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background: #111;
+    background-color: #111;
+    z-index: -1;
+    transition: .4s;
+}
+body .btn-primary:hover::after{
+    width: 100%;
+}
+.slider-content{
+    /* padding: 200px 0; */
+}
+.slider-content .btn{
+   width: 160px;
+   display: block;
+   font-size: 17px;
+}
+/* slider sec */
+.slider-section{
+    background: url(./img//main-banner2.jpg) no-repeat top center;
+    background-size: cover;
+}
+.slider-content-wrap{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.header-social{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.header-social ul{
+    list-style: none;
+    padding-left: 0;
+}
+.header-social ul li{}
+.header-social ul li span{
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 40px;
+    position: relative;
+}
+.header-social ul li span::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 35px;
+    background: #111;
+    right: -45px;
+    top: 51%;
+}
+.header-social ul li a{
+    text-decoration: none;
+    display:inline-block;
+    padding: 0 14px;
+    color: #111;
+    font-size: 19px;
+}
+.slider-content{
+    margin-top: 70px;
+}
+.slider-content h1{
+    font-size: 65px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.slider-content h6{
+    color: #e73c3e;
+}
+.slider-content p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #656c7e;
+}
+.client-logo{}
+.client-logo ul{
+    list-style: none;
+    padding-left: 0;
+}
+.logo-section{
+    border-bottom: 1px solid #ddd;
+}
+/* about-sec */
+.about-image{
+    position: relative;
+}
+.about-img-text{
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    background: url(./img//shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-img-text h2{
+    font-size: 55px;
+    font-weight: 700;
+    color: #e73c3e;
+}
+.about-img-text p{
+    color: #111111;
+    font-weight: 400;
+}
+.about-text{}
+.finix-text{}
+.finix-text h6{
+    color: #ec673e;
+    font-weight: 400;
+}
+.finix-text h2{}
+.finix-text p{}
+.finix-text ul{}
+.finix-text ul li{}
+
+
